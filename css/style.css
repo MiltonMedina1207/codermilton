@@ -73,9 +73,7 @@ header {
     bottom: 20px;
     right: 50px;
 }
-.whatsapp a img {
-    height: 55px;
-}
+
 .cookie-regular {
   font-family: "Cookie", cursive;
   font-weight: 400;
@@ -209,7 +207,7 @@ font-size: 25px;
     border: 2px solid #131212;
     
 }
-.servicios-flex h2{
+.servicios-flex h3{
     margin-top: 25px;
 }
 
@@ -244,22 +242,15 @@ font-size: 25px;
     margin-top: 10px;
     /* Espacio entre el título y el "Ver más" */
 }
-
-.elegir{
-    text-align: center;
-    background-color: #d8b1af;
-    padding: 40px;
-    padding-top: 30px;
-    font-family: "Cookie", cursive;
-
+.elegirnos-flex h3 {
+    margin-top: 25px;
 }
+
+
 
 .elegir h2 {
     margin-bottom: 30px;
     font-size: 40px;
-
-
-
 }
 
 
@@ -294,10 +285,7 @@ font-size: 25px;
     
 }
 /*?footerrrrrrrrrrrrrrrrrrrrrr*/
-footer div a img {
-    width: 40px;
-    
-}
+
 footer{
     background: radial-gradient(circle, #ff9a9e, #fad0c4);
     
@@ -503,33 +491,44 @@ font-family: "Space Grotesk", sans-serif;
 
 .nosotras h1 {
     text-align: center;
-        padding: 20px 0;
-    
-        font-size: 60px;
-    
-        font-family: "Cookie", cursive;
+    padding: 20px 0;
+    font-size: 60px;
+    font-family: "Cookie", cursive;
     text-shadow: 5px 5px 4px rgba(219, 89, 72, 0.5);
 }
-.omaira-flex {
+
+.personas-flex {
     display: flex;
-    height: 580px;
-    padding: 15px;
     flex-wrap: wrap;
+    padding: 30px;
     position: relative;
-    /* Añadir posición relativa al contenedor */
+    flex: 1;
+       
 }
 
-.omaira-flex img {
-    width: 500px;
+.personas-flex div {
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    /* Aumentar el padding interno */
+    margin: 15px;
+    /* Margen entre los elementos */
+    color: rgb(12, 12, 12);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imagenes-flex img {
+    width: 480px;
     height: 500px;
     margin: 0;
     border-radius: 20px;
     object-fit: cover;
-    
-    
 }
 
-.omaira-flex h2 {
+.personas-flex h2 {
     margin-top: 40px;
     padding: 25px;
     background-color: #ff9a9e;
@@ -538,127 +537,16 @@ font-family: "Space Grotesk", sans-serif;
     font-size: 35px;
     font-family: "Cookie", cursive;
     color: white;
-
-    /* Ajusta el margen izquierdo para que se superponga */
     margin-left: -150px;
     /* Ajusta este valor según sea necesario */
 }
 
-.omaira-flex div {
-    flex: 1;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 2px;
-    color: rgb(12, 12, 12);
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: bold;
-    margin: 0;
-    font-size: 20px;
-}
-.omaira-flex p {
-    text-align: left;
-    margin-bottom: 25px;
-    
-}
-
-
-.merida-flex {
-    display: flex;
-    height: 580px;
-    padding: 10px;
-    flex-wrap: wrap;
-    position: relative;
-    margin-bottom: 20px;
-    /* Asegura que el contenedor sea relativo */
-}
-
-.merida-flex img {
-    width: 500px;
-    height: 500px;
-    margin: 0;
-    border-radius: 20px;
-    object-fit: cover;
-}
-
-.merida-flex h2 {
-    margin-top: 40px;
-    padding: 25px;
-    background-color: #ff9a9e;
-    width: 800px;
-    text-align: center;
-    margin-bottom: 20px;
-    /* Ajustar para reducir el espacio */
-    font-size: 35px;
-    font-family: "Cookie", cursive;
-    margin-right: -50px;
-    /* Ajusta este valor según sea necesario */
-    position: relative;
-   
-    color: white;
-}
-
-.merida-flex div {
-    flex: 1;
-    box-sizing: border-box;
-    text-align: left;
-    padding: 2px;
-    color: rgb(12, 12, 12);
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.merida-flex p {
+.descripcion-flex p {
     text-align: left;
     margin-bottom: 25px;
 }
 
-.victoria-flex {
-    display: flex;
-    height: 580px;
-    padding: 10px;
-    flex-wrap: wrap;
-    position: relative;
-    margin-top: 5px;
-}
 
-.victoria-flex img {
-    width: 500px;
-    height: 500px;
-    margin: 0;
-    border-radius: 20px;
-    object-fit: cover;
-}
-
-.victoria-flex h2 {
-    margin-top: 40px;
-    padding: 25px;
-    background-color: #ff9a9e;
-    width: 850px;
-    margin-bottom: 35px;
-    font-size: 35px;
-    font-family: "Cookie", cursive;
-    margin-left: -150px;
-    /* Ajusta este valor según sea necesario */
-    color: white;
-}
-
-.victoria-flex div {
-    flex: 1;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 2px;
-    color: rgb(12, 12, 12);
-    font-family: "Space Grotesk", sans-serif;
-    font-weight: bold;
-    margin: 0;
-    font-size: 20px;
-}
-
-.victoria-flex p {
-    text-align: left;
-    margin-bottom: 25px;
-}
 
 /*Galeria de trabajossssssss*/
 
@@ -1045,112 +933,7 @@ font-size: 10px;
 
 
 
-@media screen and (max-width: 855px) {
-    .hero img {
-        height: 220px;
-    }
 
-    .historia h2 {
-        margin: 5px 0;
-        padding: 2px;
-    }
-
-    .historia p {
-        margin-top: 1px;
-        padding: 5px;
-        font-size: 9px;
-    }
-
-    .video-container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-        align-items: center;
-    }
-
-    .video-container iframe {
-        width: 390px;
-        /* Ancho del iframe */
-        height: 300px;
-        padding: 20px;
-    }
-
-    .navbar-toggler {
-        padding: 0.2rem;
-        /* Ajusta el padding */
-        font-size: 0.8rem;
-        /* Cambia el tamaño de la fuente */
-    }
-
-    .navbar-nav .nav-link {
-        font-size: 0.7rem;
-        /* Ajusta el tamaño de los enlaces */
-    }
-
-    .nav-link {
-        font-size: 12px;
-        /* Tamaño de fuente reducido */
-        padding: 6px;
-        /* Padding reducido */
-        margin: 2px;
-        /* Margen reducido */
-        border-radius: 15px;
-        /* Opcional: ajustar el radio de borde */
-    }
-
-    .nav-link:hover {
-        font-size: 10px;
-        /* Tamaño de fuente al hacer hover */
-    }
-
-    .navbar-brand img {
-        width: 160px;
-    }
-
-    .servicios-flex {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 30px;
-        padding: 20px;
-    }
-
-    .servicios-flex div {
-        width: calc(50% - 20px);
-        /* Dos elementos por fila con mayor separación */
-        margin: 20px;
-        /* Aumentar el margen para mayor separación */
-        text-align: center;
-        border-radius: 8px;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        /* Asegura que los elementos internos se apilen verticalmente */
-        align-items: center;
-    }
-
-    .servicios-flex img {
-        display: block;
-        width: 190px;
-        /* Ajusta el ancho a 190px */
-        height: 190px;
-        /* Ajusta la altura a 190px */
-        object-fit: cover;
-        /* Mantiene la proporción y recorta si es necesario */
-        margin: 0 auto;
-    }
-
-    .servicios-flex h3,
-    .servicios-flex p {
-        margin: 10px 0;
-        
-    }
-        .elegir h2,
-        .centrado h2 {
-            font-size: 35px;
-        }
-}
     @media screen and (max-width: 855px) {
     .hero img {
         height: 220px;
@@ -1615,4 +1398,634 @@ font-size: 10px;
    .whatsapp{
         font-size: 30px;
       }
+}
+
+/* MEDIAS QUERYYSSSSSSSSS Galeria de trabajos-Catalogo*/
+@media screen and (max-width: 1100px) {
+    .grid-desayunos {
+        display: flex;
+        /* Cambia a flexbox */
+        flex-wrap: wrap;
+        /* Permite que los elementos se envuelvan */
+        justify-content: center;
+        /* Centra los elementos */
+    }
+
+    .grid-items {
+        flex: 0 0 30%;
+        /* Cada imagen ocupará el 30% del ancho del contenedor */
+        margin: 10px;
+        /* Espacio entre las imágenes */
+    }
+
+    .grid-desayunos div img {
+        width: 100%;
+        height: 100%;
+        /* Mantiene la proporción de las imágenes */
+        object-fit: cover;
+        border-radius: 10px;
+        
+    }
+
+    .grid-ramillete {
+            display: flex;
+            /* Cambia a flexbox */
+            flex-wrap: wrap;
+            /* Permite que los elementos se envuelvan */
+            justify-content: center;
+            /* Centra los elementos */
+        }
+    
+    .grid-items {
+            flex: 0 0 30%;
+            /* Cada imagen ocupará el 30% del ancho del contenedor */
+            margin: 10px;
+            /* Espacio entre las imágenes */
+        }
+    
+    .grid-ramillete div img {
+            width: 100%;
+            height: 100%;
+            /* Mantiene la proporción de las imágenes */
+            object-fit: cover;
+            border-radius: 10px;
+            
+        }
+                .grid-arreglos {
+                    display: flex;
+                    /* Cambia a flexbox */
+                    flex-wrap: wrap;
+                    /* Permite que los elementos se envuelvan */
+                    justify-content: center;
+                    /* Centra los elementos */
+                }
+        
+                .grid-items {
+                    flex: 0 0 30%;
+                    /* Cada imagen ocupará el 30% del ancho del contenedor */
+                    margin: 10px;
+                    /* Espacio entre las imágenes */
+                }
+        
+                .grid-arreglos div img {
+                    width: 100%;
+                    height: 100%;
+                    /* Mantiene la proporción de las imágenes */
+                    object-fit: cover;
+                    border-radius: 10px;
+                    
+                }
+}
+
+@media screen and (max-width: 720px){
+    .desayunos h1{
+        font-size: 35px;
+    }
+    .ramillete h1 {
+            font-size: 35px;
+        }
+    .arreglos h1 {
+    font-size: 35px;
+            }
+    .grid-desayunos div img {
+     width: 200px;
+     height: 250px;
+     /* Mantiene la proporción de las imágenes */
+      object-fit: cover;
+     border-radius: 10px;
+    
+                }
+     .grid-ramillete div img {
+        width: 200px;
+         height: 250px;
+        /* Mantiene la proporción de las imágenes */
+        object-fit: cover;
+        border-radius: 10px;
+    
+        }
+
+    .grid-arreglos div img {
+            width: 200px;
+            height: 250px;
+            /* Mantiene la proporción de las imágenes */
+            object-fit: cover;
+            border-radius: 10px;
+            
+        }
+    
+      
+}
+
+@media screen and (max-width: 552px) {
+    .grid-desayunos {
+        display: flex;
+        flex-direction: column;
+        /* Coloca los elementos en columna */
+        align-items: center;
+        /* Centra los elementos */
+        width: 100%;
+        /* Asegúrate de que el contenedor ocupe el 100% del ancho */
+    }
+
+    .grid-items {
+        flex: 0 0 100%;
+        /* Cada imagen ocupará el 100% del ancho del contenedor */
+        margin: 10px 0;
+        /* Espacio entre las imágenes */
+        display: flex;
+        /* Hacer flex para centrar la imagen dentro del item */
+        justify-content: center;
+        /* Centra horizontalmente */
+    }
+
+    .grid-desayunos div img {
+        width: 250px;
+        /* Asegúrate de que la imagen ocupe el 70% del ancho del contenedor */
+        height: 300px;
+        /* Mantiene la proporción de las imágenes */
+        object-fit: cover;
+        border-radius: 10px;
+       
+    }
+
+    .desayunos h1 {
+        font-size: 28px;
+        /* Ajusta el tamaño del encabezado */
+        text-align: center;
+        /* Asegúrate de que el texto esté centrado */
+    }
+
+        .grid-ramillete {
+            display: flex;
+            flex-direction: column;
+            /* Coloca los elementos en columna */
+            align-items: center;
+            /* Centra los elementos */
+            width: 100%;
+            /* Asegúrate de que el contenedor ocupe el 100% del ancho */
+        }
+    
+        .grid-items {
+            flex: 0 0 100%;
+            /* Cada imagen ocupará el 100% del ancho del contenedor */
+            margin: 10px 0;
+            /* Espacio entre las imágenes */
+            display: flex;
+            /* Hacer flex para centrar la imagen dentro del item */
+            justify-content: center;
+            /* Centra horizontalmente */
+        }
+    
+        .grid-ramillete div img {
+            width: 250px;
+            /* Asegúrate de que la imagen ocupe el 70% del ancho del contenedor */
+            height: 300px;
+            /* Mantiene la proporción de las imágenes */
+            object-fit: cover;
+            border-radius: 10px;
+           
+        }
+    
+        .ramillete h1 {
+            font-size: 28px;
+            /* Ajusta el tamaño del encabezado */
+            text-align: center;
+            /* Asegúrate de que el texto esté centrado */
+        }
+        .grid-arreglos {
+            display: flex;
+            flex-direction: column;
+            /* Coloca los elementos en columna */
+            align-items: center;
+            /* Centra los elementos */
+            width: 100%;
+            /* Asegúrate de que el contenedor ocupe el 100% del ancho */
+        }
+    
+        .grid-items {
+            flex: 0 0 100%;
+            /* Cada imagen ocupará el 100% del ancho del contenedor */
+            margin: 10px 0;
+            /* Espacio entre las imágenes */
+            display: flex;
+            /* Hacer flex para centrar la imagen dentro del item */
+            justify-content: center;
+            /* Centra horizontalmente */
+        }
+    
+        .grid-arreglos div img {
+            width: 250px;
+            /* Asegúrate de que la imagen ocupe el 70% del ancho del contenedor */
+            height: 300px;
+            /* Mantiene la proporción de las imágenes */
+            object-fit: cover;
+            border-radius: 10px;
+           
+        }
+    
+        .arreglos h1 {
+            font-size: 28px;
+            /* Ajusta el tamaño del encabezado */
+            text-align: center;
+            /* Asegúrate de que el texto esté centrado */
+        }
+}
+
+/* MEDIAS QUERYYSSSSSSSSS Nosotrass*/
+
+@media screen and (max-width: 1280px) {
+    .personas-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* Permite que los elementos se ajusten si es necesario */
+    }
+
+    .imagenes-flex {
+        flex: 1 1 45%;
+        /* Permite que la imagen ocupe hasta el 45% del ancho disponible */
+        margin: 10px;
+        /* Margen entre los elementos */
+    }
+
+    .imagenes-flex img {
+        width: 90%;
+        /* Reduce el ancho de la imagen al 90% */
+        height: auto;
+        /* Mantiene la proporción */
+        border-radius: 20px;
+        /* Mantiene el estilo de la imagen */
+    }
+
+    .descripcion-flex {
+        flex: 1 1 45%;
+        /* Permite que el div de descripción ocupe hasta el 45% del ancho disponible */
+        text-align: left;
+        /* Alinea el texto a la izquierda */
+        margin: 10px;
+        /* Margen entre los elementos */
+    }
+
+    .personas-flex h2 {
+        margin-top: 10px;
+        /* Ajusta el margen superior */
+        padding: 10px;
+        /* Ajusta el padding */
+        background-color: #ff9a9e;
+        /* Mantiene el fondo */
+        font-size: 28px;
+        /* Ajusta el tamaño del h2 */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .personas-flex {
+        flex-direction: column;
+        /* Cambia a columna para apilar elementos */
+        align-items: center;
+        /* Asegura que los elementos se centren */
+    }
+
+    .personas-flex div {
+        flex: none;
+        /* Evita que los divs crezcan */
+        width: 100%;
+        /* Asegura que cada div ocupe el 100% del ancho */
+        margin: 10px 0;
+        /* Margen vertical entre los divs */
+        padding: 10px;
+        /* Mantiene el padding interno */
+        box-sizing: border-box;
+        /* Incluye el padding en el ancho total */
+    }
+
+    .imagenes-flex img {
+        width: 100%;
+        /* Reduce el tamaño de la imagen */
+        height: auto;
+        /* Mantiene la proporción */
+        max-height: 300px;
+        /* Establece una altura máxima */
+        margin: 0 auto;
+        /* Centra la imagen */
+    }
+
+    .descripcion-flex h2 {
+        font-size: 20px;
+        /* Tamaño del h2 */
+        margin-left: 0;
+        /* Elimina el margen negativo */
+        padding: 10px;
+        /* Ajusta el padding si es necesario */
+        width: auto;
+        /* Permite que el h2 tome el ancho automático */
+        text-align: center;
+        /* Centra el texto del h2 */
+    }
+
+        .descripcion-flex p {
+            font-size: 12px;
+            /* Cambia este valor para ajustar el tamaño de los párrafos */
+            margin-bottom: 10px;
+            /* Margen inferior para separar los párrafos */
+            line-height: 1.5;
+            /* Espaciado entre líneas para mejorar la legibilidad */
+            text-align: justify;
+        }
+
+    .nosotras h1 {
+        font-size: 30px;
+        /* Tamaño del h1 */
+    }
+}
+
+@media screen and (max-width: 500px){
+.personas-flex {
+    display: flex;
+    flex-direction: column; /* Cada persona se apila verticalmente */
+}
+
+.persona {
+    display: flex; /* Usa flexbox para cada persona */
+    margin-bottom: 30px; /* Espacio entre las secciones de personas */
+}
+
+.imagenes-flex {
+    flex: 1; /* Permite que la imagen ocupe el espacio disponible */
+    padding-right: 20px; /* Espacio entre la imagen y la descripción */
+}
+
+.imagenes-flex img {
+    width: 100%; /* Ajusta la imagen al contenedor */
+    max-width: 480px; /* Tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 20px;
+}
+
+.descripcion-flex {
+    flex: 2; /* Permite que el texto ocupe más espacio que la imagen */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.descripcion-flex h2 {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ff9a9e;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: "Cookie", cursive;
+    color: white;
+}
+
+.descripcion-flex p {
+    margin: 10px 0; /* Espaciado consistente entre párrafos */
+}
+
+}
+
+@media screen and (max-width: 1300px){
+    .imagenes-flex {
+            flex: 0 0 30%;
+            /* 35% de ancho para la imagen */
+            
+            /* Espacio entre la imagen y la descripción */
+            width: 80%;
+        }
+    
+        .imagenes-flex img {
+            width: 80%;
+            /* Ajusta la imagen al contenedor */
+            height: auto;
+            /* Mantiene la proporción */
+            max-height: 400px;
+            /* Ajusta la altura máxima de la imagen */
+            border-radius: 20px;
+            object-fit: cover;
+            /* Asegura que la imagen cubra el espacio sin deformarse */
+        }
+    
+        .descripcion-flex {
+            flex: 0 0 65%;
+            /* 65% de ancho para la descripción */
+            text-align: left;
+            /* Alinea el texto a la izquierda */
+        }
+    
+        .descripcion-flex h2 {
+            margin-top: 20px;
+            /* Margen superior para separar del contenido anterior */
+            padding: 5px;
+            background-color: #ff9a9e;
+            width: 100%;
+            /* Ocupa todo el ancho disponible */
+            margin-bottom: 10px;
+            font-size: 30px;
+            font-family: "Cookie", cursive;
+            color: white;
+            margin-left: 0px;
+        }
+    
+        .descripcion-flex p {
+            
+            font-size: 14px;
+            margin-top: 30px;
+        }
+
+}
+
+
+
+@media screen and (max-width: 1020px){
+    .descripcion-flex p {
+    
+    
+            font-size: 10px;
+            margin-top: 2px;
+    
+    
+        }
+        .descripcion-flex h2 {
+    
+    
+            font-size: 18px;
+           
+    
+    
+        }
+        .imagenes-flex img {
+            width: 100%;
+            /* Ajusta la imagen al contenedor */
+            height: 300px;
+            /* Establece una altura fija para todas las imágenes */
+            max-height: 320px;
+    
+    
+        }
+    .nosotras h1{
+        font-size:22px ;
+    }
+}
+@media screen and (max-width: 603px) {
+    .personas-flex {
+        display: flex;
+        flex-direction: column;
+        /* Cada persona se apila verticalmente */
+    }
+
+    .imagenes-flex {
+        flex: 1;
+        /* Permite que la imagen ocupe el espacio disponible */
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* Espacio adicional a la derecha */
+    }
+
+    .imagenes-flex img {
+        width: 80%;
+        /* Ajusta la imagen al contenedor */
+        max-width: 380px;
+        /* Tamaño máximo de la imagen */
+        height: 270px;
+        /* Mantiene la proporción */
+        border-radius: 20px;
+        display: block;
+        /* Asegura que el margen funcione correctamente */
+        margin: 0 auto;
+        /* Centra la imagen horizontalmente */
+    }
+
+    .descripcion-flex {
+        flex: 2;
+        /* Permite que el texto ocupe más espacio que la imagen */
+        text-align: left;
+        /* Alinea el texto a la izquierda */
+    }
+
+    .descripcion-flex h2 {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #ff9a9e;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 35px;
+        font-family: "Cookie", cursive;
+        color: white;
+        font-size: 20px;
+    }
+
+    .descripcion-flex p {
+        margin: 10px 0;
+        /* Espaciado consistente entre párrafos */
+    }
+}
+
+
+/* MEDIAS QUERYYSSSSSSSSS Contactanos*/
+
+@media screen and (max-width: 905px) {
+    .contactanos-flex {
+        flex-direction: column;
+        /* Cambia la dirección a columna */
+        align-items: center;
+        /* Centra los elementos */
+    }
+
+    .formulario {
+        width: 90%;
+        /* O el tamaño que desees */
+        margin-bottom: 20px;
+        /* Espacio entre el formulario y el contenido de contacto */
+    }
+
+    .texto {
+        width: 90%;
+        /* Ajusta el ancho del texto para que se vea bien */
+    }
+
+    .texto-contenido,
+    .telefono-contenido,
+    .correo-contenido {
+        width: 100%;
+        /* Asegura que el contenido de contacto ocupe el 90% */
+        margin: 10px 0;
+        /* Espaciado entre secciones */
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contactanos-flex iframe {
+        width: 100%;
+        /* Ajusta el ancho al 100% del contenedor */
+        height: 200px;
+        /* Ajusta la altura a un tamaño más pequeño */
+        margin: 0 auto;
+        /* Centra el iframe si es necesario */
+        border-radius: 10px;
+        /* Mantiene el borde redondeado */
+    }
+        .contactar h2,
+        .texto-contenido h2,
+        .telefono-contenido h2,
+        .correo-contenido h2 {
+            font-size: 20px;
+            /* Ajusta el tamaño de los h2 */
+        }
+    
+        .texto p,
+        .telefono-contenido p,
+        .correo-contenido p {
+            font-size: 12px;
+            /* Ajusta el tamaño de los párrafos */
+        }
+         .formulario {
+             width: 90%;
+             /* Ajusta el ancho del formulario */
+             padding: 10px;
+             /* Mantiene el padding */
+             height: auto;
+             /* Deja que la altura se ajuste automáticamente */
+             margin-bottom: 20px;
+             margin: 5px;
+             /* Espacio entre el formulario y el resto del contenido */
+         }
+    
+         .row {
+             display: flex;
+             flex-direction: column;
+             /* Cambia la dirección a columna */
+             width: 100%;
+             /* Asegura que ocupa todo el ancho */
+         }
+    
+         .col {
+             width: 100%;
+             /* Cada columna ocupa el 100% */
+             margin-bottom: 15px;
+             /* Espacio entre campos */
+         }
+    
+         .form-floating {
+             width: 100%;
+             /* Asegura que el textarea ocupe todo el ancho */
+             margin-bottom: 15px;
+             /* Espacio entre el textarea y el botón */
+         }
+    
+         .form-control {
+             width: 100%;
+             /* Asegura que los campos de entrada ocupen todo el ancho */
+             font-size: 14px;
+             /* Ajusta el tamaño de los campos de entrada */
+         }
+    
+         .btn-primary {
+             width: 100%;
+             /* Asegura que el botón ocupe todo el ancho */
+             padding: 10px;
+             /* Ajusta el padding del botón si es necesario */
+         }
+          .formulario h2 {
+        font-size: 18px; /* Reduce el tamaño del encabezado del formulario */
+    }
 }

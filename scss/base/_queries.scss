@@ -1,0 +1,1032 @@
+
+/**MEDIASS QUERYS DE INDEX*/
+@media screen and (max-width: 1192px) {
+    .historia {
+            h2 {
+                margin: 10px 0;
+            }
+    
+            p {
+                font-size: 12px;
+                margin: 10px;
+            }
+    
+            // Aumentar el ancho del div .historia
+            width: 80%; // Ajusta este valor según necesites
+            margin: 0 auto; // Centra el contenido
+        }
+    
+        .video-container {
+            width: 40%; // Reducir el ancho del contenedor del video
+    
+            iframe {
+                width: 100%; // Hacer el iframe responsivo
+                height: 240px; // Ajustar la altura según necesites
+                padding: 20px;
+            }
+        }
+    .navbar-toggler {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .navbar-nav {
+        .nav-link {
+            font-size: 0.8rem;
+
+            &:hover {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .nav-link {
+        font-size: 30px;
+        padding: 12px;
+        margin: 6px;
+        border-radius: 15px;
+    }
+
+    .navbar-brand {
+        img {
+            width: 200px;
+        }
+    }
+
+    .elegirnos-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+        div {
+            width: calc(50% - 10px);
+            margin: 5px;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                display: block;
+                margin: 0 auto;
+                max-width: 100%;
+                height: auto;
+            }
+
+            h3,
+            p {
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .elegir h2,
+    .centrado h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .historia {
+        h2 {
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 10px;
+        }
+
+        width: 80%; // Mantener el ancho
+        margin: 0 auto; // Centrar el contenido
+    }
+
+    .video-container {
+        width: 40%; // Mantener el ancho del video
+
+        iframe {
+            width: 100%;
+            height: 240px;
+            padding: 20px;
+        }
+    }
+
+    .navbar-toggler {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .navbar-nav {
+        .nav-link {
+            font-size: 0.8rem;
+
+            &:hover {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .nav-link {
+        font-size: 30px;
+        padding: 12px;
+        margin: 6px;
+        border-radius: 15px;
+    }
+
+    .navbar-brand {
+        img {
+            width: 200px;
+        }
+    }
+
+    .elegirnos-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+        div {
+            width: calc(50% - 10px); // Dos elementos por fila
+            margin: 5px;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                display: block;
+                margin: 0 auto;
+                max-width: 100%;
+                height: auto;
+            }
+
+            h3,
+            p {
+                margin: 10px 0;
+            }
+        }
+    }
+
+  
+
+   .elegir {
+       text-align: center;
+       
+       padding: 40px;
+       padding-top: 30px;
+       font-family: "Cookie", cursive;
+
+       h2 {
+           font-size: 40px; // Tamaño del título
+           margin: 20px 0; // Margen alrededor del título
+           text-align: center; // Centrar el texto
+       }
+
+       .elegirnos-flex {
+           display: flex; // Usar flexbox para alinear los elementos
+           flex-wrap: wrap; // Permitir que los elementos se envuelvan si es necesario
+           justify-content: center; // Centrar los elementos
+           margin: 0; // Margen exterior
+           padding: 0; // Padding interior
+
+           div {
+               width: 22%; // Ajustar el ancho para caber en la fila
+               margin: 10px; // Margen alrededor de cada div
+               text-align: center; // Centrar el texto
+               padding: 10px; // Padding interior
+               display: flex;
+               flex-direction: column; // Apilar elementos verticalmente
+               align-items: center; // Centrar elementos internos
+
+               img {
+                   display: block; // Mostrar como bloque
+                   margin: 0 auto; // Centrar la imagen
+                   max-width: 100%; // Ajustar al contenedor
+                   height: auto; // Mantener la proporción
+                   width: 180px;
+               }
+
+               h3 {
+                   margin: 10px 0; // Margen alrededor del título
+               }
+
+               p {
+                   margin: 10px 0; // Margen alrededor del párrafo
+               }
+           }
+       }
+   }
+
+       // Media query para pantallas con ancho máximo de 880px
+       @media (max-width: 880px) {
+           .elegirnos-flex {
+               div {
+                   width: 45%; // Ajustar el ancho para dos elementos por fila
+               }
+           }
+       }
+   }
+
+@media screen and (max-width: 765px) {
+    .flex-container {
+        flex-direction: column; // Cambia la dirección de flex a columna
+        align-items: center; // Centra los elementos
+
+        .video-container {
+            margin: 20px; // Margen alrededor
+            padding: 10px; // Espaciado interno
+            display: flex;
+            justify-content: center;
+
+            iframe {
+                display: block; // Asegura que el iframe sea un bloque
+                margin: auto; // Centra el iframe
+                width: 490px; // Hacer el ancho responsivo
+                height: 240px; // Ajustar la altura
+                border: none; // Elimina el borde
+            }
+        }
+
+        .historia {
+            flex: 1; // Permite que esta sección ocupe el espacio restante
+            margin: 20px; // Margen alrededor
+            padding: 10px; // Espaciado interno
+            color: rgb(12, 12, 12); // Color del texto
+            font-weight: bold; // Texto en negrita
+            text-align: center;
+
+            h2 {
+                font-family: "Cookie", cursive; // Fuente para el título
+                margin-bottom: 20px; // Espacio debajo del título
+                text-align: center;
+            }
+
+            p {
+                font-family: "Space Grotesk", sans-serif; // Fuente para los párrafos
+                margin: 10px; // Margen para los párrafos
+                line-height: 1.1; // Espaciado entre líneas
+                text-align: justify; // Justificación del texto
+
+                &.justificado {
+                    // Se aplica la justificación de texto
+                }
+
+                &.justificado-derecha {
+                    margin-left: 5%; // Espacio a la izquierda
+                }
+            }
+        }
+    }
+
+    .centrado {
+        h2 {
+            font-size: 25px; // Tamaño del título
+            margin: 20px 0; // Margen alrededor del título
+            text-align: center; // Centrar el texto
+        }
+
+        .servicios-flex {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            div {
+                flex: 0 0 calc(50% - 10px); // Dos elementos por fila
+                margin-bottom: 10px;
+
+                img {
+                    width: 200px; // Ajustar ancho
+                    height: 200px; // Ajustar altura
+                    border-radius: 40%;
+                    object-fit: cover;
+                    border: 2px solid #131212;
+                }
+
+                h3 {
+                    font-family: $fuente-principal;
+                    margin-top: 20px; // Ajustar margen
+                }
+
+                a {
+                    margin-bottom: 20px; // Ajustar margen
+                    background-color: #E34B64;
+                    display: inline-block;
+                    text-align: center;
+                    padding: 8px; // Ajustar padding
+                    text-decoration: none;
+                    color: black;
+                    border-radius: 5px;
+                    border: 2px solid #080808;
+                    margin-top: 10px;
+                    font-size: 14px; // Ajustar tamaño de fuente
+                }
+            }
+        }
+    }
+
+    .elegir {
+        text-align: center;
+        
+        padding: 40px;
+        padding-top: 30px;
+        font-family: "Cookie", cursive;
+
+        h2 {
+            font-size: 25px; // Tamaño del título
+            margin: 20px 0; // Margen alrededor del título
+            text-align: center; // Centrar el texto
+        }
+
+        .elegirnos-flex {
+            display: flex; // Usar flexbox para alinear los elementos
+            flex-wrap: wrap; // Permitir que los elementos se envuelvan si es necesario
+            justify-content: center; // Centrar los elementos
+            margin: 0; // Margen exterior
+            padding: 0; // Padding interior
+
+            div {
+                width: calc(50% - 20px); // Dos elementos por fila
+                margin: 10px; // Margen alrededor de cada div
+                text-align: center; // Centrar el texto
+                padding: 10px; // Padding interior
+                display: flex;
+                flex-direction: column; // Apilar elementos verticalmente
+                align-items: center; // Centrar elementos internos
+
+                img {
+                    display: block; // Mostrar como bloque
+                    margin: 0 auto; // Centrar la imagen
+                    max-width: 100%; // Ajustar al contenedor
+                    height: auto; // Mantener la proporción
+                    width: 180px; // Ajustar ancho
+                }
+
+                h3 {
+                    margin: 10px 0; // Margen alrededor del título
+                }
+
+                p {
+                    margin: 10px 0; // Margen alrededor del párrafo
+                }
+            }
+        }
+    }
+    .whatsapp {
+           
+    
+         i {
+                font-size: 40px;
+            }
+        }
+}
+
+@media screen and (max-width: 505px) {
+
+    .flex-container {
+            flex-direction: column; // Cambia la dirección de flex a columna
+            align-items: center; // Centra los elementos
+    
+            .video-container {
+               
+                iframe {
+                   width: 270px;
+                }
+            }
+    
+            .historia {
+                flex: 1; // Permite que esta sección ocupe el espacio restante
+                margin: 20px; // Margen alrededor
+                padding: 10px; // Espaciado interno
+                color: rgb(12, 12, 12); // Color del texto
+                font-weight: bold; // Texto en negrita
+                text-align: center;
+    
+                h2 {
+                    font-family: "Cookie", cursive; // Fuente para el título
+                    margin-bottom: 20px; // Espacio debajo del título
+                    text-align: center;
+                }
+    
+                p {
+                    font-family: "Space Grotesk", sans-serif; // Fuente para los párrafos
+                    margin: 10px; // Margen para los párrafos
+                    line-height: 1.1; // Espaciado entre líneas
+                    text-align: justify; // Justificación del texto
+    
+                    &.justificado {
+                        // Se aplica la justificación de texto
+                    }
+    
+                    &.justificado-derecha {
+                        margin-left: 5%; // Espacio a la izquierda
+                    }
+                }
+            }
+        }
+
+    .centrado {
+        h2 {
+            font-size: 25px; // Tamaño del título
+            margin: 20px 0; // Margen alrededor del título
+            text-align: center; // Centrar el texto
+        }
+
+        .servicios-flex {
+            display: flex;
+            flex-direction: column; // Cambia la dirección a columna
+            align-items: center; // Centra los elementos
+
+            div {
+                flex: 0 0 100%; // Un elemento por fila
+                margin-bottom: 10px;
+
+                img {
+                    width: 200px; // Ajustar ancho
+                    height: 200px; // Ajustar altura
+                    border-radius: 40%;
+                    object-fit: cover;
+                    border: 2px solid #131212;
+                }
+
+                h3 {
+                    font-family: $fuente-principal;
+                    margin-top: 20px; // Ajustar margen
+                }
+
+                a {
+                    margin-bottom: 20px; // Ajustar margen
+                    background-color: #E34B64;
+                    display: inline-block;
+                    text-align: center;
+                    padding: 8px; // Ajustar padding
+                    text-decoration: none;
+                    color: black;
+                    border-radius: 5px;
+                    border: 2px solid #080808;
+                    margin-top: 10px;
+                    font-size: 14px; // Ajustar tamaño de fuente
+                }
+            }
+        }
+    }
+
+    .elegir {
+        text-align: center;
+        
+        padding: 40px;
+        padding-top: 30px;
+        font-family: "Cookie", cursive;
+
+        h2 {
+            font-size: 25px; // Tamaño del título
+            margin: 20px 0; // Margen alrededor del título
+            text-align: center; // Centrar el texto
+        }
+
+        .elegirnos-flex {
+            display: flex; // Usar flexbox para alinear los elementos
+            flex-direction: column; // Cambia la dirección a columna
+            align-items: center; // Centra los elementos
+            margin: 0; // Margen exterior
+            padding: 0; // Padding interior
+
+            div {
+                width: 100%; // Un elemento por fila
+                margin: 10px 0; // Margen alrededor de cada div
+                text-align: center; // Centrar el texto
+                padding: 10px; // Padding interior
+                display: flex;
+                flex-direction: column; // Apilar elementos verticalmente
+                align-items: center; // Centrar elementos internos
+
+                img {
+                    display: block; // Mostrar como bloque
+                    margin: 0 auto; // Centrar la imagen
+                    max-width: 100%; // Ajustar al contenedor
+                    height: auto; // Mantener la proporción
+                    width: 180px; // Ajustar ancho
+                }
+
+                h3 {
+                    margin: 10px 0; // Margen alrededor del título
+                }
+
+                p {
+                    margin: 10px 0; // Margen alrededor del párrafo
+                }
+            }
+        }
+    }
+}
+    
+/*MEDIAS QUERYS DE GALERIASSSS DE TRABAJOOO*/
+
+@media screen and (max-width: 1100px) {
+    .desayunos {
+        .grid-desayunos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .grid-items {
+                flex: 0 0 30%; // Cada imagen ocupará el 30% del ancho del contenedor
+                margin: 10px;
+
+                img {
+                    width: 100%;
+                    height: 100%; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .ramillete {
+        .grid-ramillete {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .grid-items {
+                flex: 0 0 30%; // Cada imagen ocupará el 30% del ancho del contenedor
+                margin: 10px;
+
+                img {
+                    width: 100%;
+                    height: 100%; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .arreglos {
+        .grid-arreglos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .grid-items {
+                flex: 0 0 30%; // Cada imagen ocupará el 30% del ancho del contenedor
+                margin: 10px;
+
+                img {
+                    width: 100%;
+                    height: 100%; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .desayunos {
+        h1 {
+            font-size: 35px; // Tamaño del título
+        }
+
+        .grid-desayunos {
+            .grid-items {
+                img {
+                    width: 200px;
+                    height: 250px; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .ramillete {
+        h1 {
+            font-size: 35px; // Tamaño del título
+        }
+
+        .grid-ramillete {
+            .grid-items {
+                img {
+                    width: 200px;
+                    height: 250px; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .arreglos {
+        h1 {
+            font-size: 35px; // Tamaño del título
+        }
+
+        .grid-arreglos {
+            .grid-items {
+                img {
+                    width: 200px;
+                    height: 250px; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .desayunos {
+        h1 {
+            font-size: 28px; // Ajusta el tamaño del encabezado
+            text-align: center; // Centra el texto
+        }
+
+        .grid-desayunos {
+            display: flex;
+            flex-direction: column; // Coloca los elementos en columna
+            align-items: center; // Centra los elementos
+            width: 100%; // Asegura que el contenedor ocupe el 100% del ancho
+
+            .grid-items {
+                flex: 0 0 100%; // Cada imagen ocupará el 100% del ancho del contenedor
+                margin: 10px 0; // Espacio entre las imágenes
+                display: flex; // Hacer flex para centrar la imagen dentro del item
+                justify-content: center; // Centra horizontalmente
+
+                img {
+                    width: 250px; // Asegura que la imagen ocupe el ancho especificado
+                    height: 300px; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .ramillete {
+        h1 {
+            font-size: 28px; // Ajusta el tamaño del encabezado
+            text-align: center; // Centra el texto
+        }
+
+        .grid-ramillete {
+            display: flex;
+            flex-direction: column; // Coloca los elementos en columna
+            align-items: center; // Centra los elementos
+            width: 100%; // Asegura que el contenedor ocupe el 100% del ancho
+
+            .grid-items {
+                flex: 0 0 100%; // Cada imagen ocupará el 100% del ancho del contenedor
+                margin: 10px 0; // Espacio entre las imágenes
+                display: flex; // Hacer flex para centrar la imagen dentro del item
+                justify-content: center; // Centra horizontalmente
+
+                img {
+                    width: 250px; // Asegura que la imagen ocupe el ancho especificado
+                    height: 300px; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .arreglos {
+        h1 {
+            font-size: 28px; // Ajusta el tamaño del encabezado
+            text-align: center; // Centra el texto
+        }
+
+        .grid-arreglos {
+            display: flex;
+            flex-direction: column; // Coloca los elementos en columna
+            align-items: center; // Centra los elementos
+            width: 100%; // Asegura que el contenedor ocupe el 100% del ancho
+
+            .grid-items {
+                flex: 0 0 100%; // Cada imagen ocupará el 100% del ancho del contenedor
+                margin: 10px 0; // Espacio entre las imágenes
+                display: flex; // Hacer flex para centrar la imagen dentro del item
+                justify-content: center; // Centra horizontalmente
+
+                img {
+                    width: 250px; // Asegura que la imagen ocupe el ancho especificado
+                    height: 300px; // Mantiene la proporción de las imágenes
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+/*QUERYSS DE  NOSOTRASSSSS*/
+@media screen and (max-width: 1300px) {
+    .personas-flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        div {
+            flex: 1 1 45%; // Ajusta el ancho de los divs
+            margin: 10px; // Margen entre los elementos
+        }
+
+        .imagenes-flex {
+            img {
+                width: 70%; // Reduce el ancho de la imagen al 90%
+                height: 400px; // Mantiene la proporción
+                border-radius: 20px; // Mantiene el estilo de la imagen
+            }
+        }
+
+        .descripcion-flex {
+            flex: 1 1 45%; // Ajusta el ancho de la descripción
+            text-align: left; // Alinea el texto a la izquierda
+
+            h2 {
+                margin-top: 10px; // Ajusta el margen superior
+                padding: 10px; // Ajusta el padding
+                background-color: #ff9a9e; // Mantiene el fondo
+                font-size: 28px; // Ajusta el tamaño del h2
+                width: 100%; // Asegura que el h2 ocupe todo el ancho disponible
+                margin-left: 0; // Restablece el margen izquierdo
+                text-align: center;
+            }
+            p {
+             font-size: 16px;
+               /* Cambia este valor para ajustar el tamaño de los párrafos */
+               margin-bottom: 10px;
+                line-height: 1.5;
+                            /* Espaciado entre líneas para mejorar la legibilidad */
+               text-align: justify;
+                        }
+        }
+    }
+}
+
+
+@media screen and (max-width: 896px){
+    .nosotras {
+            h1 {
+                font-size: 30px;
+            }
+        }
+    .personas-flex {
+          
+            
+    
+            .imagenes-flex {
+                img {
+                    width: 80%; // Reduce el ancho de la imagen al 90%
+                    height: 293px; // Mantiene la proporción
+                    border-radius: 20px; // Mantiene el estilo de la imagen
+                }
+            }
+    
+            .descripcion-flex {
+                flex: 1 1 45%; // Ajusta el ancho de la descripción
+                text-align: left; // Alinea el texto a la izquierda
+    
+                h2 {
+                   
+                    font-size: 20px; // Ajusta el tamaño del h2
+                    
+                }
+    
+                p {
+                    font-size: 11px;
+                    
+                }
+            }
+        }
+    }
+
+    
+@media screen and (max-width: 665px) {
+    .nosotras {
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .personas-flex {
+        flex-direction: column; // Cambia a columna para apilar elementos verticalmente
+
+        .imagenes-flex {
+            margin-bottom: 20px; // Espacio entre la imagen y la descripción
+
+            img {
+                width: 200px; // Reduce el ancho de la imagen
+                height: 250px; // Establece una altura menor
+                border-radius: 20px; // Mantiene el estilo de la imagen
+                object-fit: cover; // Asegura que la imagen se ajuste adecuadamente
+            }
+        }
+
+        .descripcion-flex {
+            flex: 1 1 100%; // Ajusta el ancho de la descripción para ocupar el 100%
+            text-align: left; // Alinea el texto a la izquierda
+
+            h2 {
+                font-size: 20px; // Ajusta el tamaño del h2
+            }
+
+            p {
+                font-size: 11px; // Ajusta el tamaño del párrafo
+            }
+        }
+    }
+}
+@media screen and (max-width: 503px) {
+    .personas-flex {
+        .imagenes-flex {
+                margin-bottom: 20px; // Espacio entre la imagen y la descripción
+        
+                img {
+                    width: 200px; // Reduce el ancho de la imagen
+                    height: 250px; // Establece una altura menor
+                    border-radius: 20px; // Mantiene el estilo de la imagen
+                    object-fit: cover; // Asegura que la imagen se ajuste adecuadamente
+                }
+            }
+        
+
+        .descripcion-flex {
+            flex: 2; // Permite que el texto ocupe más espacio que la imagen
+            text-align: left; // Alinea el texto a la izquierda
+
+            h2 {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #ff9a9e;
+                width: 100%;
+                margin-bottom: 10px;
+                font-size: 16px;
+                font-family: "Cookie", cursive;
+                color: white;
+            }
+
+            p {
+                margin: 10px 0; // Espaciado consistente entre párrafos
+            }
+        }
+    }
+}
+ /*AQUI COMIENZAAAAAA MEDIA QUERY DE  CONTACTANOS */
+
+ @media screen and (max-width: 905px) {
+     .contactanos-flex {
+         flex-direction: column; // Cambia la dirección a columna
+         align-items: center; // Centra los elementos
+     }
+
+     .formulario {
+         width: 90%; // O el tamaño que desees
+         margin-bottom: 20px; // Espacio entre el formulario y el contenido de contacto
+     }
+
+     .texto {
+         width: 90%; // Ajusta el ancho del texto para que se vea bien
+     }
+
+     .texto-contenido,
+     .telefono-contenido,
+     .correo-contenido {
+         width: 100%; // Asegura que el contenido de contacto ocupe el 100%
+         margin: 10px 0; // Espaciado entre secciones
+     }
+ }
+ 
+ @media screen and (max-width: 550px) {
+     .contactanos-flex iframe {
+         width: 100%; // Ajusta el ancho al 100% del contenedor
+         height: 200px; // Ajusta la altura a un tamaño más pequeño
+         margin: 0 auto; // Centra el iframe si es necesario
+         border-radius: 10px; // Mantiene el borde redondeado
+     }
+
+     .contactar h2,
+     .texto-contenido h2,
+     .telefono-contenido h2,
+     .correo-contenido h2 {
+         font-size: 20px; // Ajusta el tamaño de los h2
+     }
+
+     .texto p,
+     .telefono-contenido p,
+     .correo-contenido p {
+         font-size: 12px; // Ajusta el tamaño de los párrafos
+     }
+
+     .formulario {
+         width: 90%; // Ajusta el ancho del formulario
+         padding: 10px; // Mantiene el padding
+         height: auto; // Deja que la altura se ajuste automáticamente
+         margin-bottom: 20px;
+         margin: 5px; // Espacio entre el formulario y el resto del contenido
+     }
+
+     .row {
+         display: flex;
+         flex-direction: column; // Cambia la dirección a columna
+         width: 100%; // Asegura que ocupa todo el ancho
+     }
+
+     .col {
+         width: 100%; // Cada columna ocupa el 100%
+         margin-bottom: 15px; // Espacio entre campos
+     }
+
+     .form-floating {
+         width: 100%; // Asegura que el textarea ocupe todo el ancho
+         margin-bottom: 15px; // Espacio entre el textarea y el botón
+     }
+
+     .form-control {
+         width: 100%; // Asegura que los campos de entrada ocupen todo el ancho
+         font-size: 14px; // Ajusta el tamaño de los campos de entrada
+     }
+
+     .btn-primary {
+         width: 100%; // Asegura que el botón ocupe todo el ancho
+         padding: 10px; // Ajusta el padding del botón si es necesario
+     }
+
+     .formulario h2 {
+         font-size: 18px; // Reduce el tamaño del encabezado del formulario
+     }
+ }
+  /*medias querys de  header*/
+@media (max-width: 993px){
+    header {
+            .navbar {
+                &-brand {
+                    img {
+                        width: 200px; 
+                    }
+                }
+    
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            font-size: 14px; 
+                            padding: 6px 10px; 
+                            
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+@media (max-width: 600px) {
+    header {
+        .navbar {
+            &-brand {
+                img {
+                    width: 200px; // Reduce el tamaño del logo en pantallas pequeñas
+                }
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        font-size: 12px; // Reducir el tamaño de fuente de los enlaces
+                        padding: 6px 15px; // Ajustar el espaciado interno
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*MEDIA QUERY DE  FOOTER*/
+
+@media (max-width: 600px) {
+    footer {
+       
+
+        div {
+            a {
+                
+                font-size: 9px; // Cambia el tamaño de la fuente a 16px
+            }
+
+            i {
+              
+                font-size: 20px; // Opcional: Cambia el tamaño del icono si lo deseas
+            }
+        }
+    }
+}
+  

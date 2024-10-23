@@ -1,0 +1,495 @@
+/*INDEXXX*/
+// Estilos para el hero
+.hero {
+    img {
+        width: 100%;
+    }
+}
+
+// Estilos para el contenedor flexible
+.flex-container {
+    display: flex;
+    background-color: $color-principal; // Color de fondo
+    height: auto; // Ajuste automático al contenido
+    flex-wrap: wrap; // Permite que los elementos se acomoden en varias filas
+
+    .video-container {
+        margin: 20px; // Margen alrededor
+        padding: 10px; // Espaciado interno
+        display: flex;
+        justify-content: center;
+
+        iframe {
+            display: block; // Asegura que el iframe sea un bloque
+            margin: auto; // Centra el iframe
+            width: 500px; // Ancho del iframe
+            height: 320px; // Alto del iframe
+            border: none; // Elimina el borde
+        }
+    }
+
+    .historia {
+        flex: 1; // Permite que esta sección ocupe el espacio restante
+        margin: 20px; // Margen alrededor
+        padding: 10px; // Espaciado interno
+        color: rgb(12, 12, 12); // Color del texto
+        font-weight: bold; // Texto en negrita
+        text-align: center;
+
+        h2 {
+            font-family: $fuente-principal; // Fuente para el título
+            margin-bottom: 20px; // Espacio debajo del título
+            text-align: center;
+        }
+
+        p {
+            font-family: $fuente-secundaria;// Fuente para los párrafos
+            margin: 10px; // Margen para los párrafos
+            line-height: 1.1; // Espaciado entre líneas
+            text-align: justify; // Justificación del texto
+
+           
+
+            &.justificado-derecha {
+                margin-left: 5%; // Espacio a la izquierda
+            }
+        }
+    }
+}
+
+// Sección centrada
+.centrado {
+    text-align: center;
+    background: radial-gradient(circle, $color-principal, $color-secundario);
+    padding: 40px;
+
+    h2 {
+        font-family: $fuente-principal;
+        
+    }
+
+    .servicios-flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        div {
+            flex: 0 0 calc(33.33%);
+            margin-bottom: 10px;
+
+            img {
+                width: 250px;
+                height: 250px;
+                border-radius: 40%;
+                object-fit: cover;
+                border: 2px solid #131212;
+            }
+
+            h3 {
+                font-family: $fuente-principal;
+                margin-top: 25px;
+            }
+            a{
+                margin-bottom: 30px;
+                    background-color: #E34B64;
+                    display: inline-block;
+                    text-align: center;
+                    padding: 5px;
+                    text-decoration: none;
+                    color: black;
+                    border-radius: 5px;
+                    border: 2px solid #080808;
+                
+                    margin-top: 10px;
+            }
+        }
+    }
+}
+
+// Sección de elegir
+.elegir {
+    text-align: center;
+    background-color: #E34B64;
+    padding: 40px;
+    padding-top: 30px;
+    font-family: $fuente-principal;
+
+    h2 {
+        font-size: 40px; // Tamaño del título
+        margin: 20px 0; // Margen alrededor del título
+        text-align: center; // Centrar el texto
+    }
+
+    .elegirnos-flex {
+        display: flex; // Usar flexbox para alinear los elementos
+        flex-wrap: nowrap; // No permitir que los elementos se envuelvan
+        justify-content: center; // Centrar los elementos
+        margin: 0; // Margen exterior
+        padding: 0; // Padding interior
+
+        div {
+            width: 20%; // Ajustar el ancho para caber en la fila (puedes ajustar este valor)
+            margin: 10px; // Margen alrededor de cada div
+            text-align: center; // Centrar el texto
+            padding: 10px; // Padding interior
+            display: flex;
+            flex-direction: column; // Apilar elementos verticalmente
+            align-items: center; // Centrar elementos internos
+
+            img {
+                display: block; // Mostrar como bloque
+                margin: 0 auto; // Centrar la imagen
+                max-width: 100%; // Ajustar al contenedor
+                height: auto; // Mantener la proporción
+                width: 180px; // Ajustar ancho
+            }
+
+            h3 {
+                margin: 10px 0; // Margen alrededor del título
+            }
+
+            p {
+                margin: 10px 0; // Margen alrededor del párrafo
+            }
+        }
+    }
+}
+
+// WhatsApp
+.whatsapp {
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+
+    i {
+        font-size: 60px;
+    }
+}
+
+
+/*TERMINA EL INDEX AQUIIIIIIIIIIIIIIIIIII*/
+
+
+/*EMPIEZAAA GALERIAAAAAAAAAAA*/
+.desayunos {
+    background-color:$color-tercero;
+    padding: 50px 0;
+
+    h1 {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 50px;
+        font-family: $fuente-principal;
+        text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5);
+    }
+
+    .grid-desayunos {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-auto-rows: 480px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding-inline: 15px;
+
+        .grid-items {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                border: solid rgb(240, 81, 108);
+            }
+        }
+
+        .segundo-item {
+            grid-row: span 2;
+        }
+    }
+}
+
+.ramillete {
+    background-color: $color-secundario;
+    padding: 40px 0;
+
+    h1 {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 50px;
+        font-family: $fuente-principal;
+        text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5);
+        color: white;
+    }
+
+    .grid-ramillete {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-auto-rows: 370px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding-inline: 40px;
+
+        .grid-items {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                border: solid rgb(236, 199, 205);
+            }
+        }
+
+        .primer-ramillete {
+            grid-row: span 2;
+        }
+
+        .tercer-ramillete {
+            grid-row: span 2;
+        }
+    }
+}
+
+.arreglos {
+    background-color:$color-principal;
+    padding: 50px 0;
+
+    h1 {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 50px;
+        font-family: $fuente-principal;
+        text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5);
+    }
+
+    .grid-arreglos {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-auto-rows: 370px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding-inline: 40px;
+
+        .grid-items {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                border: solid rgb(226, 73, 98);
+            }
+        }
+
+        .primer-arreglo {
+            grid-row: span 2;
+        }
+
+        .tercer-arreglo {
+            grid-row: span 2;
+        }
+    }
+}
+
+
+/*EMPIEZAAAAAA NOSOTRASSSSSSSSSSSSSSS*/
+
+.nosotras {
+    h1 {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 60px;
+        font-family: $fuente-principal;
+        text-shadow: 5px 5px 4px rgba(219, 89, 72, 0.5);
+    }
+}
+
+.personas-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    position: relative;
+    flex: 1;
+
+    div {
+        flex: 1;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 10px;
+        margin: 15px;
+        color: rgb(12, 12, 12);
+        font-family: $fuente-secundaria;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .imagenes-flex {
+        img {
+            width: 480px;
+            height: 500px;
+            margin: 0;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+    }
+
+    h2 {
+        margin-top: 40px;
+        padding: 25px;
+        background-color: $color-principal;
+        width: 850px;
+        margin-bottom: 35px;
+        font-size: 35px;
+        font-family: $fuente-principal;
+        color: white;
+        margin-left: -150px; // Ajusta este valor según sea necesario
+    }
+
+    .descripcion-flex {
+        p {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+/*!EMPIEZA CONTACTANOSSSS*/
+.contactanos {
+    background-color: $color-principal;
+    min-height: 100vh;
+
+    .contactar {
+        margin-left: 45px;
+        font-family: $fuente-principal;
+        padding-top: 30px;
+        text-shadow: 5px 5px 4px rgba(219, 89, 72, 0.5);
+
+        
+    }
+
+    .contactanos-flex {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        padding: 30px;
+
+        .texto {
+            flex: 1; // Permite que el texto ocupe el espacio disponible
+            margin-right: 20px;
+
+            .texto-contenido {
+                display: flex;
+                align-items: center;
+
+                i {
+                    margin-right: 10px;
+                    width: 30px;
+                    height: 50px;
+                    color: #d64343;
+                    font-size: 25px;
+                }
+
+                h2 {
+                    font-family: $fuente-principal;
+                    display: inline;
+                }
+            }
+
+            p {
+                font-family: $fuente-secundaria;
+            }
+
+            .telefono-contenido {
+                align-items: center;
+                padding: 20px;
+
+                i {
+                    margin-right: 10px;
+                    width: 30px;
+                    height: 50px;
+                    color: #d64343;
+                    font-size: 25px;
+                }
+
+                h2 {
+                    font-family: $fuente-principal;
+                    display: inline;
+                }
+            }
+
+            .correo-contenido {
+                align-items: center;
+                padding: 20px;
+
+                i {
+                    margin-right: 10px;
+                    width: 30px;
+                    height: 50px;
+                    color: #d64343;
+                    font-size: 25px;
+                }
+
+                h2 {
+                    font-family:$fuente-principal;
+                }
+            }
+
+            iframe {
+                margin-left: 8px;
+                border-radius: 10px;
+            }
+        }
+
+        .formulario {
+            flex: 1;
+            padding: 30px;
+            background-color: $color-secundario;
+            border-radius: 20px;
+            height: 400px;
+
+            h2 {
+                font-family: $fuente-principal;
+                text-align: center;
+            }
+
+            .form-floating {
+                padding-top: 20px;
+                margin-top: 20px;
+                font-family: $fuente-principal;
+
+               
+
+               
+            }
+
+            .form-control {
+                font-family: $fuente-principal;
+                padding-top: 20px;
+            }
+
+            .row {
+                padding-top: 20px;
+
+               
+            }
+
+            .col-12 {
+                font-family: $fuente-principal;
+                padding-top: 20px;
+
+                button {
+                    width: 100%;
+                    background-color: $color-tercero;
+                    border: solid white;
+
+                    &:hover {
+                        background-color: $color-principal;
+                        border: solid white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
