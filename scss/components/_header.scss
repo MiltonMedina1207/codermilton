@@ -1,4 +1,5 @@
 header {
+    text-emphasis: none;
     background: radial-gradient(circle, #ff9a9e, #fad0c4);
     padding: 20px;
     display: flex;
@@ -13,8 +14,10 @@ header {
         flex-grow: 1; // Permite que la navbar ocupe el espacio disponible
 
         &-brand {
-            img {
-                width: 267px; // Estilos para la imagen del logo
+            h1 {
+                font-family: $fuente-principal; // Cambia esta fuente a la que necesites
+                
+               
             }
         }
 
@@ -23,20 +26,18 @@ header {
 
             .nav-item {
                 .nav-link {
-                    font-family: "Cookie"; // Aplicar la fuente Cookie
-                    font-size: 18px; // Reducir el tamaño de la fuente
-                    color: #ffffff;
-                    text-decoration: none;
-                    padding: 8px 20px; // Reducir el padding
-                    display: inline;
-                    background-color: #7c5553;
-                    margin: 2px;
-                    border-radius: 25px;
-                    font-weight: bold; // Negrita en el texto
+                    font-family: $fuente-secundaria; // Cambia la fuente de los enlaces
+                    font-size: 18px; // Tamaño de fuente para los enlaces
+                    color: black; // Color de los enlaces
+                    text-decoration: none; // Elimina el subrayado de los enlaces
+                    padding: 8px 20px; // Espaciado alrededor de los enlaces
+                    display: inline-block; // Muestra los enlaces en línea
+                    margin: 2px; // Espaciado entre los enlaces
+                    font-weight: bold; // Aplica negrita
 
                     &:hover {
-                        font-size: 20px; // Ajustar el tamaño al hacer hover
-                        color: #eea8a2; // Color al pasar el mouse
+                        font-size: 20px; // Aumenta el tamaño cuando pasa el mouse
+                        color: #f1eae9; // Color del texto al hacer hover
                     }
                 }
             }

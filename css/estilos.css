@@ -8,6 +8,7 @@ a {
   text-decoration: none; }
 
 header {
+  text-emphasis: none;
   background: radial-gradient(circle, #ff9a9e, #fad0c4);
   padding: 20px;
   display: flex;
@@ -19,24 +20,22 @@ header {
   header .navbar {
     background: transparent;
     flex-grow: 1; }
-    header .navbar-brand img {
-      width: 267px; }
+    header .navbar-brand h1 {
+      font-family: "Cookie", cursive; }
     header .navbar .navbar-nav {
       margin-left: auto; }
       header .navbar .navbar-nav .nav-item .nav-link {
-        font-family: "Cookie";
+        font-family: "Space Grotesk", sans-serif;
         font-size: 18px;
-        color: #ffffff;
+        color: black;
         text-decoration: none;
         padding: 8px 20px;
-        display: inline;
-        background-color: #7c5553;
+        display: inline-block;
         margin: 2px;
-        border-radius: 25px;
         font-weight: bold; }
         header .navbar .navbar-nav .nav-item .nav-link:hover {
           font-size: 20px;
-          color: #eea8a2; }
+          color: #f1eae9; }
 
 /*INDEXXX*/
 .hero img {
@@ -67,6 +66,7 @@ header {
     text-align: center; }
     .flex-container .historia h2 {
       font-family: "Cookie", cursive;
+      font-size: 40px;
       margin-bottom: 20px;
       text-align: center; }
     .flex-container .historia p {
@@ -82,7 +82,8 @@ header {
   background: radial-gradient(circle, #FF9DA0, #E34B64);
   padding: 40px; }
   .centrado h2 {
-    font-family: "Cookie", cursive; }
+    font-family: "Cookie", cursive;
+    font-size: 40px; }
   .centrado .servicios-flex {
     display: flex;
     justify-content: space-between;
@@ -98,6 +99,7 @@ header {
         border: 2px solid #131212; }
       .centrado .servicios-flex div h3 {
         font-family: "Cookie", cursive;
+        font-size: 30px;
         margin-top: 25px; }
       .centrado .servicios-flex div a {
         margin-bottom: 30px;
@@ -142,9 +144,11 @@ header {
         height: auto;
         width: 180px; }
       .elegir .elegirnos-flex div h3 {
-        margin: 10px 0; }
+        margin: 10px 0;
+        font-size: 30px; }
       .elegir .elegirnos-flex div p {
-        margin: 10px 0; }
+        margin: 10px 0;
+        font-family: "Space Grotesk", sans-serif; }
 
 .whatsapp {
   color: white;
@@ -152,7 +156,7 @@ header {
   bottom: 20px;
   right: 50px; }
   .whatsapp i {
-    font-size: 60px; }
+    font-size: 40px; }
 
 /*TERMINA EL INDEX AQUIIIIIIIIIIIIIIIIIII*/
 /*EMPIEZAAA GALERIAAAAAAAAAAA*/
@@ -162,7 +166,7 @@ header {
   .desayunos h1 {
     text-align: center;
     padding: 20px 0;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Cookie", cursive;
     text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5); }
   .desayunos .grid-desayunos {
@@ -188,7 +192,7 @@ header {
   .ramillete h1 {
     text-align: center;
     padding: 20px 0;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Cookie", cursive;
     text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5);
     color: white; }
@@ -217,7 +221,7 @@ header {
   .arreglos h1 {
     text-align: center;
     padding: 20px 0;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Cookie", cursive;
     text-shadow: 5px 5px 4px rgba(163, 49, 49, 0.5); }
   .arreglos .grid-arreglos {
@@ -275,7 +279,7 @@ header {
     background-color: #FF9DA0;
     width: 850px;
     margin-bottom: 35px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Cookie", cursive;
     color: white;
     margin-left: -150px; }
